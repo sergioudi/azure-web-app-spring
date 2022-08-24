@@ -47,6 +47,8 @@ jobs:
           distribution: ${{ env.DISTRIBUTION }}
           cache: 'gradle'
 
+      - name: change permission +x for gradlew
+        run:  chmod +x gradlew      
       - name: Build with Gradle
         run: ./gradlew clean build
 
