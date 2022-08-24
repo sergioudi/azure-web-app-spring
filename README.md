@@ -1,2 +1,2 @@
 # azure-web-app-spring
-Example deploy a Spring Boot application deploy in the Azure.
+Example deploy a Spring Boot application in the Azure.
