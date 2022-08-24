@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AzureWebAppSpringController {
     @RequestMapping("/")
     public  String helloWorld() {
-        return "Hello World!";
+        return "Hello World!!!";
     }
 }
